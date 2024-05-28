@@ -7,10 +7,15 @@ Driver fatigue measurement and warning notification project using CNN
           - 얼굴 인식 가이드라인 제작
           - CNN 학습 코드 서브
 
-수행목표 : - 얼굴인식과 전처리 과정을 거친 이미지를 데이터로 가공하여 CNN로 특징을 추출
+수행목표 : -이미지 인식을 통해 보호구역에 진입시 자동으로 속도 조절
+          - 얼굴인식과 전처리 과정을 거친 이미지를 데이터로 가공하여 CNN로 특징을 추출
           - CNN 학습된 모델을 실시간 영상에 적용하여 운전자의 상태를 분석
 
 사용기술 : Python, PyTorch, OpenCV, Dlib
+
+환경설정 : * [Ubuntu](./doc/environment/ubuntu.md)
+          * [OpenVINO](./doc/environment/openvino.md)
+          * [YOLOv8](https://github.com/ultralytics/ultralytics/blob/main/README.md)
 
 세부수행내용 : 
 
